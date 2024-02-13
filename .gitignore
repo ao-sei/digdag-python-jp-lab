@@ -1,0 +1,5 @@
+workspace/*
+up-down.cmd
+
+#ディレクトリのみ反映させるための空ファイル
+!workspace/.gitkeep
