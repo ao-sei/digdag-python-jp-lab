@@ -3,17 +3,20 @@
 {
 	"name": "",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"dockerComposeFile": ["../docker-compose.yml"],
-	"extensions":[
-        "ms-python.debugpy",
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "ms-toolsai.jupyter",
-        "ms-toolsai.jupyter-keymap",
-        "ms-toolsai.jupyter-renderers",
-        "ms-toolsai.vscode-jupyter-cell-tags",
-		"redhat.vscode-yaml",
-	],
+
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devcontainer",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	// "extensions":[
+    //     "ms-python.debugpy",
+    //     "ms-python.python",
+    //     "ms-python.vscode-pylance",
+    //     "ms-toolsai.jupyter",
+    //     "ms-toolsai.jupyter-keymap",
+    //     "ms-toolsai.jupyter-renderers",
+    //     "ms-toolsai.vscode-jupyter-cell-tags",
+    //     "redhat.vscode-yaml",
+	// ],
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
